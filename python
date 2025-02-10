@@ -1,0 +1,9 @@
+a=int(input())
+b=int(input())
+c=int(input())
+total=a+b+c
+if(total>=50):
+  discount=total-(total*10/100)
+  print(discount)
+else:
+  print(total)
